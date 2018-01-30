@@ -1,0 +1,3 @@
+[submodule "Milestones Demo Workspace/strong-arm.cylib/strong-arm"]
+	path = Milestones Demo Workspace/strong-arm.cylib/strong-arm
+	url = https://github.com/fpgaminer/strong-arm.git

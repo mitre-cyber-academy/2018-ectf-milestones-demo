@@ -1,0 +1,59 @@
+# eCTF Secrets #
+################
+secrets.py
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+
+# Object files #
+################
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output #
+#################
+*.ilk
+*.map
+*.exp
+
+# Shared objects (inc. Windows DLLs) #
+######################################
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Debug files #
+###############
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# PSoC Creator #
+################
+**/*.cywrk.*
+**/*.cyprj.*
+**/*.cycdx
+**/*.cyfit
+**/*.rpt
+**/*.uvopt
+**/*.uvproj
+**/*_timing.html
+**/*.cy*/codegentemp
+**/*.cy*/DP8051
+**/*.cy*/Generated_Source
+**/*.cy*/CortexM0
+**/*.cy*/Export
+**/*.cy*/*.log
+**/*.svd
+**/.cache
