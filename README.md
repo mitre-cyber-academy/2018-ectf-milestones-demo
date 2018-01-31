@@ -31,6 +31,6 @@ For an interactive serial communication session with the PSoC:
 ```socat -d -d -lf /dev/stdout -x -v 2> dump1.txt  "READLINE,history=$HOME  /s.hist" /dev/ttyS3,b115200,raw,echo=0```
 
 To bridge PSoC and TCP server communications:
-```socat -d -d -lf /dev/stdout -x -v 2> dump2.txt /dev/ttyS3,b115200,raw,echo  =0 TCP:127.0.0.1:1337```
+```socat -d -d -lf /dev/stdout -x -v 2> dump2.txt /dev/ttyS3,b115200,raw,echo=0 TCP:127.0.0.1:1337```
 
 Both commands log all traffic to a file (including direction of communication and timestamps).  Both commands may need to be modified to account for your system's specific serial COM port and the network address you are trying to communicate with.
